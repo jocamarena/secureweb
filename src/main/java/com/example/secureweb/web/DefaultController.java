@@ -15,7 +15,7 @@ public class DefaultController {
                 .localDateTime(java.time.LocalDateTime.now())
                 .build();
     }
-    @GetMapping("/secure")
+    @GetMapping("/secure/home")
     public Hello homeSecure() {
         return Hello.builder()
                 .message("Hello, Secure World!")
